@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">XPertDelivery</string>
+    <string name="title_activity_drivers_maps">Map</string>
+    <string-array name="Options">
+        <item>Delivery</item>
+        <item>Customer</item>
+    </string-array>
+    <string name="title_activity_customer_maps">Permission needed</string>
+    <string name="title_location_permission">Permission needed</string>
+    <string name="text_location_permission">You should allow user to access location</string>
+    <string name="ok">Ok</string>
+    <string-array name="SelectNumber">
+        <item>Choose number of items</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

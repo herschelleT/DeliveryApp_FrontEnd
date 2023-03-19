@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewOrder">
+
+    <LinearLayout
+        android:id="@+id/Deliv_Info"
+        android:layout_width="match_parent"
+        android:layout_height="527dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/Customername"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="" />
+        <TextView
+            android:id="@+id/Customerorder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/Call"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_outline"
+            android:text="Call"
+            android:textColor="@color/purple_500" />
+
+
+
+        <Button
+            android:id="@+id/Edit_order"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_outline"
+            android:text="Edit order"
+            android:textColor="@color/purple_500" />
+
+        <Button
+            android:id="@+id/Remove_order"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_outline"
+            android:text="Cancel ORDER"
+            android:textColor="@color/purple_500" />
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_outline"
+            android:text="BACK"
+            android:textColor="@color/purple_500"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
